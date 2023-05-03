@@ -1,0 +1,194 @@
+* {
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+   background-color: #e8ffef;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+   width: 100%;
+   height: 120px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 100px;
+}
+
+.logo {
+   width: 78px;
+   height: 78px;
+   float: left;
+   padding: 10px;
+}
+
+.containerH {
+   width: 1186px;
+   height: 58px;
+   background-color: white;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 40px;
+}
+
+.linkHeader {
+   padding: 7px;
+   float: left;
+   text-decoration: none;
+   color: black;
+}
+
+.linkHeader:hover {
+   color: rgba(0, 0, 0, 0.514);
+}
+
+.linkHeader:active {
+   color: rgba(37, 37, 37, 0.877);
+}
+
+.buscar {
+   display: flex;
+   align-items: center;
+   justify-content: right;
+
+}
+
+.buscarText {
+   width: 350px;
+   height: 27px;
+   display: flex;
+   padding: 5px;
+   font-size: 16px;
+   border-radius: 7px;
+   border: 1px solid rgba(0, 0, 0, 0.589);
+}
+
+.buscarButton {
+   width: 24px;
+   height: 24px;
+   position: absolute;
+   margin-right: 10px;
+   background-image: url('images/lupa.png');
+   background-repeat: no-repeat;
+   background-position: center;
+   border: 0px;
+   background-color: transparent;
+}
+
+.titulo1 {
+   text-align: center;
+   padding: 15px;
+   margin-bottom: 15px;
+   margin-top: -5px;
+}
+
+.section1 {
+   width: 100%;
+   height: 350px;
+   margin-top: 30px;
+   display: flex;
+   justify-content: center;
+   gap: 100px;
+}
+
+.imgNoticia1 {
+   width: 570.5px;
+   height: 350px;
+   margin-left: 14px;
+   float: left;
+   border: 1px solid rgba(0, 0, 0, 0.685);
+   margin-left: 163px;
+}
+
+.sectionRight {
+   background-color: white;
+   width: 725px;
+   height: 350px;
+   float: right;
+   margin-right: 12.5px;
+   border: 1px solid rgba(0, 0, 0, 0.685);
+   border-radius: 4px;
+}
+
+.tituloSec1 {
+   margin-top: 32px;
+   margin-left: 32px;
+   margin-bottom: 16px;
+}
+
+.textSec1 {
+   padding: 32px;
+   margin-top: -32px;
+   text-align: justify;
+   margin-bottom: 80px;
+}
+
+.button-Lermais {
+   width: 120px;
+   height: 35px;
+   font-size: 22px;
+   float: right;
+   margin-right: 30px;
+}
+
+.section2 {
+   width: 100%;
+   height: 350px;
+   margin-top: 30px;
+   display: flex;
+   justify-content: center;
+   gap: 50px;
+}
+
+.sectionLeft {
+   background-color: white;
+   width: 800px;border: 1px solid rgba(0, 0, 0, 0.685);
+   border-radius: 4px;
+}
+
+.tituloSec2 {
+   text-align: center;
+   margin-top: 32px;
+   margin-bottom: 16px;
+}
+.textoSec2 {
+   padding: 32px;
+   margin-top: -20px;
+   margin-bottom: 80px;
+   text-align: justify;
+}
+
+.imgNoticia2 {
+   width: 626.92px;
+   height: 350px;
+   border: 1px solid rgba(0, 0, 0, 0.685);   
+}
+
+.section3 {
+   width: 100%;
+   height: 300px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.section {
+   background-color: white;
+   width: 1380px;
+   padding: 50px;
+   border: 1px solid rgba(0, 0, 0, 0.685);
+   border-radius: 4px;
+}
+
+.textSec3 {
+   margin-top: 30px;
+   text-align: justify;
+}
+
+.foot {
+   text-align: center;
+   margin-bottom: 8px;
+}
